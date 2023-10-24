@@ -1,0 +1,24 @@
+GET http://127.0.0.1:5000/join
+
+###
+GET http://127.0.0.1:5000/get_users
+###
+
+POST http://127.0.0.1:5000/add_user
+Content-Type: application/json
+
+{
+  "username": "value"
+}
+###
+
+POST http://127.0.0.1:5000/receive_post
+Content-Type: application/json
+
+{
+  "name_give": "jann",
+  "key": "value"
+}
+###
+
+
